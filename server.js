@@ -18,8 +18,8 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 // Sets up routes
-app.use('/', apiRouter);
 app.use('/', htmlRouter);
+app.use('/', apiRouter);
 
 app.listen(PORT, function(){
 	console.log('App listening on PORT ' + PORT);
