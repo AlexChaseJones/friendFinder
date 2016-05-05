@@ -9,7 +9,7 @@ var htmlRouter = require('./app/routing/html-routes.js');
 // Sets up Express app
 // ============================================================
 var app = express();
-var PORT = var port=Number(process.env.PORT || 8080;
+var PORT = var port=Number(process.env.PORT || 8080);
 
 //Express app data parsing
 app.use(bodyParser.json());
